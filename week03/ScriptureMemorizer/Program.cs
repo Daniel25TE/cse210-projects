@@ -21,7 +21,7 @@ class Program
             
             {
                 Console.Clear();
-                scripture.HideRandomWords(1);
+                scripture.HideRandomWords(3);
                 Console.WriteLine(scripture.GetDisplayText());
                 Console.WriteLine("Press Enter to continue or type 'quit' to exit.");
                 if (scripture.IsCompletelyHidden())

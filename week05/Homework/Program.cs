@@ -13,6 +13,19 @@ class Program
         Console.WriteLine(segundo.GetSummary());
         Console.WriteLine(segundo.GetHomeworkList());
 
+        Console.WriteLine("Going to sleep for a second...");
+
+        Thread.Sleep(4000);
+
+        Console.WriteLine("I'm back!!");
+        
+        Console.Write("+");
+
+        Thread.Sleep(5000);
+
+        Console.Write("\b \b"); // Erase the + character
+        Console.Write("-");
+
         WritingAssignment tercero = new WritingAssignment("Mary Waters", "European History", "The Causes of World War II by Mary Waters");
         Console.WriteLine(tercero.GetSummary());
         Console.WriteLine(tercero.GetWritingInformation());
